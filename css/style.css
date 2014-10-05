@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	background: #012023;
+}
+
+img{
+     display: block;
+	 margin:3% 0;
+	 max-width: 100%;
+	 min-width: 100%;
+	 height: auto;
+ }
+
+#feedz{ 
+     overflow:hidden;
+	 max-width: 600px;
+	 margin: 2% auto;
+}
+ 
+ #loadingimg img{
+     margin:20% auto;
+	 min-width:20px;
+	 max-width:50px;
+ }
+
+ .iframe-container{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+ }
+ 
+ iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+ }
+ 
+.fitem {
+    margin: 1.5%;
+    padding: 2% 3%;
+}
+
+.datesmall{
+    font-size:0.6em;
+    text-align:right;
+    color:#888;
+}
+
+.fphoto a{
+    color:#630;
+}
+
+.fvideo a{
+    color:#c33;
+}
+
+.ffeed a{
+    color:#366;
+}
+
+.ftools a{
+    color:#c63;
+}
+
+.fblog a{
+    color:#fc0;
+}
+
+.fpodcast iframe{
+    background:#663;
+}
+
+.fpodcast a{
+    color:#663;
+}
+
+.fbooks a{
+    color:#963;
+}
+
+.ftrans a{
+    color:#993;
+}
+
+.fmacau a{
+    color:#633;
+}
+
+.flisboa a{
+    color:#f93;
+}
+
+.fstressfeed{
+    position:relative;
+	background: #000;
+	border: 2px solid #c90;
+}
+
+.flab a{
+    color:#963;
+}
+
+.fstressfeed h3{
+    display:inline-block;
+    width:49%;
+    font-size:0.9em;
+    margin-bottom: 8%;
+    margin-top: 25%;
+}
+
+.fstressfeed > a{
+    display:inline-block;
+    width:49%;
+}
+
+.fstressfeed a{
+    color:#c90;
+}
+
+.fstressfeed .datesmall{
+    
+    padding: 2% 0;
+    background: #000;
+}
+
+#currprog span, .fstressfeed span {
+    background:#000;
+    color:#c33;
+    font-weight:bold;
+    padding: 0.1% 1.5%;
+    font-size: 1.5em;
+    position: absolute;
+    top: 1.5%;
+    left: 1%;
+    
+}
+
+#currprog img{
+    margin: 10% 5% -10%;
+    max-width: 125px;
+    max-height: 100px;
+}
