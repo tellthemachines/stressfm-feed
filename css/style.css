@@ -10,6 +10,20 @@ img{
 	 min-width: 100%;
 	 height: auto;
  }
+ 
+ .logo {
+	max-width: 70%;
+	min-width: 50px;
+	margin: 0;
+ }
+ 
+ .smallplayer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 70px;
+	max-height: 70px;
+ }
 
 #feedz{ 
      overflow:hidden;
@@ -30,7 +44,7 @@ img{
 	height: 0;
  }
  
- iframe{
+ .iframe-container iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
